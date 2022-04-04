@@ -9,11 +9,28 @@ int main() {
 	return 0;
 }
 /*
-	viết chương trình nhập vào điểm 3 môn học, Toán Lý Hóa
-	a) Xuất ra những môn dưới trung bình (điểm số < 5)
-	b) Xuất ra tổng trung bình 3 môn (lấy 3 môn cộng lại , chia 3)
-	c) Xuất ra học lực Tốt nếu(tổng trung bình 3 môn >= 8 )
-		học lực khá nếu(tổng trung bình 3mon >= 6.5 và <8)
-		học lực trung bình nếu(tổng trung bình 3 môn >= 5 và < 6)
-		học lực yếu nếu <5
+*	Bài 1
+	Viết chương trình nhập vào 3 số bất kì vd: 
+	a) Xuất ra theo giá trị TĂNG dần
+	b) Xuất ra theo giá trị GIẢM dần
 */
+
+/*
+*	Bài 2
+	Nhập vào độ dài 3 cạnh của 1 tam giác
+	a) kiểm tra xem 3 cạnh đó có tạo nên 1 tam giác hợp lệ hay ko
+		Nếu đúng xuất ra -> Tam giác hợp lệ
+		Nếu sai -> Tam giác ko hợp lệ
+
+	b) Xuất ra diện tích của tam giác
+
+	c) Kiểm tra xem tam giác đó có phải là tam giác cân hay ko
+		Nếu có -> Tam giác cân
+		Nếu ko -> Tam giác ko cân
+
+	d) Kiểm tra xem tam giác đó có phải tam giác đều hay ko
+		Nếu có -> Tam giác đều
+		Nếu ko -> Tam giác ko đều
+*/
+
+
