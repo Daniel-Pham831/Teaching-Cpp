@@ -33,4 +33,20 @@ int main() {
 		Nếu ko -> Tam giác ko đều
 */
 
+/*
+	Bài 3
+	Viết chương trình nhập vào Tháng và Năm
+	a) Kiểm tra xem Tháng và Năm vừa nhập có hợp lệ hay ko? 
+		Có -> Hợp lệ (tự snghi xem thế nào là tháng, năm hợp lệ)
+		Ko -> Ko hợp lệ
 
+	b) Xuất ra số ngày có trong tháng đó 
+		vd1: Nhập vào Tháng 1, Năm 2000 
+		-> Xuất ra Tháng 1, Năm 2000 có 31 ngày
+
+		vd2: Nhập vào Tháng 2, Năm 2009 
+		-> Xuất ra Tháng 2, Năm 2000 có 29 ngày
+
+		vd3: Nhập vào Tháng 2, Năm 2000
+		-> Xuất ra Tháng 2, Năm 2000 có 28 ngày
+*/
