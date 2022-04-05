@@ -1,0 +1,1 @@
+This is just a repository for teaching the basic fundamental concepts of programming.
