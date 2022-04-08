@@ -3,21 +3,14 @@ using namespace std;
 
 int main() {
 
-
-	for (int i = 1; i<10; i=i+2) {
-		cout << i << endl;
-	}
-	
-
-
-
 	cout << endl;
 	system("pause");
 	return 0;
 }
-// In từ 100 -> 0;
-// 
-// In tất cả số lẻ từ 100 -> 0
-// In tất cả số chẵn từ 100 -> 0
+/*
+	Viết chương trình nhập vào 1 số n bất kì (n > 0)
+	Xuất ra các số lẻ từ 0 -> n
+	vd : nhập n = 10;
+	1 3 5 7 9
 
-
+ */
