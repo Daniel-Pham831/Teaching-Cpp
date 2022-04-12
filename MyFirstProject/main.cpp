@@ -1,53 +1,56 @@
-﻿#include <iostream>
+﻿#include "iostream"
 using namespace std;
 
 int main() {
+	
+	int tong = 0;//0
 
-	int n;
-	cout << "Vui long nhap vao n: ";
-	cin >> n;
+	for (int i = 1; i <= 5; i++) {
+		cout << "tong: " << tong << endl;
+		cout << "i: " << i << endl;
 
-	if (n > 0) {
-		for (int i = 0; i < n; i++) {
-			cout << i<<" ";
-		}
-	}
-	else {
-		cout << "Ban da nhap sai!"<< endl;
+		tong = tong + i;
 	}
 
+	cout << tong;
+	
 	cout << endl;
 	system("pause");
 	return 0;
 }
-/*	
-	Bài 1
-	Viết chương trình nhập vào 1 số n bất kì (n > 0) (nếu n <= 0 thì hủy chương trình)
-	Xuất ra các số lẻ từ 0 -> n
-	vd : nhập n = 10;
-	xuất ra: 1 3 5 7 9
 
-	Bài 2
-	Viết chương trình nhập vào 1 số n bất kì (n > 0) (nếu n <= 0 thì hủy chương trình)
-	Xuất ra các số chẳn từ 0 -> n
-	vd : nhập n = 10;
-	xuất ra: 0 2 4 6 8 10
+/*
+	Bài 1:
+	Cho người dùng nhập vào 1 số Dương bé hơn hoặc bằng 50 (n)
 
-	Bài 3
-	Viết chương trình nhập vào 1 số nguyên ÂM N bất kì (N < 0)
-	Xuất ra các số lẻ từ N -> 0
-	vd : nhập n = -10;
-	xuất ra: -9 -7 -5 -3 -1
+	xuất ra tổng từ 1 -> n
+	vd: người dùng nhập 4
+	-> tổng từ 1 tới 4 là: 10
 
-	Bài 4
-	Viết chương trình nhập vào 2 số bất kì A B (A < B) (nếu A >= B thì hủy chương trình)
-	Xuất ra các số chẳn từ A -> B
-	vd : A = -3 , B = 6
-	xuất ra: -2 0 2 4 6
+	vd: người dùng nhập 10
+	-> tổng từ 1 tới 10 là: 55
 
-	Bài 5
-	Viết chương trình nhập vào 2 sô bất kì A B (A > B) (nếu A <= B thì hủy chương trình)
-	Xuất ra các số chia hết cho 4 từ A -> B (giảm dần)
-	vd : A = 20 , B = 2
-	Xuất ra: 20 16 12 8 4
- */
+	vd: người dùng nhập 6
+	-> tổng từ 1 tới 6 là: 21
+
+
+	Bài 2:
+	Nhập 1 số N bất kì từ 100 -> 200 (bao gồm 100 và 200) (nếu sai nhập lại)
+
+	Nhập 1 số dương K bất kì bé hơn 50
+	
+	a) xuất ra từ 1 -> K nhưng ko dc xuất các số nào chia hết cho 2 và 3
+	vd: nhập K là 49
+	-> 1 5 7 11 13 17 19 23 25 29 31 35 37 41 43 47 49
+
+	b) xuất ra tổng từ 1 -> số K
+	vd: nhập K = 5 
+	-> tổng từ 1 tới 5 là : 15
+
+	c) xuất ra hiệu của N và tổng vừa tìm
+	vd: nhập N = 100, K = 5
+	-> Hieu cua 100 va 15 la 85
+
+	vd: nhập N = 150, K = 10
+	-> Hieu cua 150 va 55 la 95
+*/
