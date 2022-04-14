@@ -53,4 +53,20 @@ int main() {
 
 	vd: nhập N = 150, K = 10
 	-> Hieu cua 150 va 55 la 95
+
+	Bài 3:
+	Cho người dùng nhập vào 1 số dương n, bé hơn 9999999 (7 số 9)
+
+	a) Kiểm tra xem người dùng vừa nhập số dương hay âm
+	-> vd: nhập N = 126354 
+	Xuất ra -> Bạn vua nhap vao 1 so Duong
+
+	b) Đếm xem có bao nhieu chữ số trong đó 
+	vd: Nhập N = 100
+	Xuất ra -> số bạn vừa nhập có 3 chữ số
+	
+	vd: Nhập N = 35495
+	Xuất ra -> số bạn vừa nhập có 5 chữ số
+
+	c) làm lại câu b mà ko dc dùng if
 */
