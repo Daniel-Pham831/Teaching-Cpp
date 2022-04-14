@@ -1,72 +1,101 @@
-﻿#include "iostream"
+﻿#include <iostream>
 using namespace std;
 
+
 int main() {
-	
-	int tong = 0;//0
+    int luaChon;
+    cin >> luaChon;
+    switch (luaChon) {
+        case 1:
+            //neu lua chon == 1 thì vô đây
+            break;
 
-	for (int i = 1; i <= 5; i++) {
-		cout << "tong: " << tong << endl;
-		cout << "i: " << i << endl;
+        case 10:
+            //neu lua chon == 10 thì vô đây
+            break;
 
-		tong = tong + i;
-	}
+        default:
+            //neu neu ko co cai đúng thì thì vô đây
+            break;
+    }
 
-	cout << tong;
-	
-	cout << endl;
-	system("pause");
-	return 0;
+    cout << endl;
+    system("pause");
+    return 0;
 }
 
 /*
-	Bài 1:
-	Cho người dùng nhập vào 1 số Dương bé hơn hoặc bằng 50 (n)
+    Bài 2
+    Viết chương trình nhập vào 2 số thực
+    Sau đó hỏi người dùng
 
-	xuất ra tổng từ 1 -> n
-	vd: người dùng nhập 4
-	-> tổng từ 1 tới 4 là: 10
+    Nhap 1: De tinh tong A+B
+    Nhap 2: De tinh hieu A-B
+    Nhap 3: De tinh thuong A/B
+    Nhap 4: De tinh tich A*B
+    Bạn muon lam gi?
 
-	vd: người dùng nhập 10
-	-> tổng từ 1 tới 10 là: 55
+    vd: nguoi dung nhập vô 2 số
+    4.5  7.6
 
-	vd: người dùng nhập 6
-	-> tổng từ 1 tới 6 là: 21
+    ->Console
+    Nhap 1: De tinh tong A+B
+    Nhap 2: De tinh hieu A-B
+    Nhap 3: De tinh thuong A/B
+    Nhap 4: De tinh tich A*B
+    Bạn muon lam gi?
+
+    ->1
+    4.5 + 7.6 = 12.1
+
+    ->5
+    Ban da nhap sai
+    -> be chuong trinh luon
 
 
-	Bài 2:
-	Nhập 1 số N bất kì từ 100 -> 200 (bao gồm 100 và 200) (nếu sai nhập lại)
+    Bài 3:
+    Viết chương trình kiểm tra số nguyên dương n được nhập vào từ người dùng
+    kiểm tra xem số n đó có phải là số nguyên tố hay ko?
+    biết rằng số nguyên tố là số
+    CHỈ CHIA HẾT CHO 1 VÀ CHÍNH NÓ
 
-	Nhập 1 số dương K bất kì bé hơn 50
-	
-	a) xuất ra từ 1 -> K nhưng ko dc xuất các số nào chia hết cho 2 và 3
-	vd: nhập K là 49
-	-> 1 5 7 11 13 17 19 23 25 29 31 35 37 41 43 47 49
+    vd: người dùng nhập -> 1
+    Thì xuất ra -> 1 là số nguyên tố
 
-	b) xuất ra tổng từ 1 -> số K
-	vd: nhập K = 5 
-	-> tổng từ 1 tới 5 là : 15
+    vd: người dùng nhập -> 2
+    Thì xuất ra -> 2 là số nguyên tố
 
-	c) xuất ra hiệu của N và tổng vừa tìm
-	vd: nhập N = 100, K = 5
-	-> Hieu cua 100 va 15 la 85
+    vd: người dùng nhập -> 7
+    Thì xuất ra -> 7 là số nguyên tố
 
-	vd: nhập N = 150, K = 10
-	-> Hieu cua 150 va 55 la 95
+    vd: người dùng nhập -> 8
+    Thì xuất ra -> 8 không là số nguyên tố
 
-	Bài 3:
-	Cho người dùng nhập vào 1 số dương n, bé hơn 9999999 (7 số 9)
+    vd: người dùng nhập -> 4
+    Thì xuất ra -> 4 không là số nguyên tố
 
-	a) Kiểm tra xem người dùng vừa nhập số dương hay âm
-	-> vd: nhập N = 126354 
-	Xuất ra -> Bạn vua nhap vao 1 so Duong
+    vd: người dùng nhập -> 6
+    Thì xuất ra -> 6 không là số nguyên tố
 
-	b) Đếm xem có bao nhieu chữ số trong đó 
-	vd: Nhập N = 100
-	Xuất ra -> số bạn vừa nhập có 3 chữ số
-	
-	vd: Nhập N = 35495
-	Xuất ra -> số bạn vừa nhập có 5 chữ số
+    Bài 4: 
+    Viết chương trình kiểm tra số nguyên dương N được nhập vào từ người dùng
+    kiểm tra xem số n đó có phải là số hoàn thiện hay ko?
+    biết rằng số hoàn thiện là số
+    Ước của số N đó cộng lại bằng chính số N đó
+    
+   
+    vd: người dùng nhập -> 6 -> 1+2+3=6
+    Thì xuất ra -> 6 là số hoàn thiện
 
-	c) làm lại câu b mà ko dc dùng if
+    vd: người dùng nhập -> 28 -> 1+2+4+7+14=28
+    Thì xuất ra -> 28 là số hoàn thiện
+
+    vd: người dùng nhập -> 496
+    Thì xuất ra -> 496 là số hoàn thiện
+
+    vd: người dùng nhập -> 8 -> 1+2+4 = 7
+    Thì xuất ra -> 8 không là số hoàn thiện
+
+    vd: người dùng nhập -> 4
+    Thì xuất ra -> 4 không là số hoàn thiện
 */
