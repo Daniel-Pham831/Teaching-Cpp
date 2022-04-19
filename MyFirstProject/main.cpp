@@ -3,21 +3,8 @@ using namespace std;
 
 
 int main() {
-    int luaChon;
-    cin >> luaChon;
-    switch (luaChon) {
-        case 1:
-            //neu lua chon == 1 thì vô đây
-            break;
 
-        case 10:
-            //neu lua chon == 10 thì vô đây
-            break;
-
-        default:
-            //neu neu ko co cai đúng thì thì vô đây
-            break;
-    }
+ 
 
     cout << endl;
     system("pause");
@@ -25,77 +12,49 @@ int main() {
 }
 
 /*
-    Bài 2
-    Viết chương trình nhập vào 2 số thực
-    Sau đó hỏi người dùng
+    Viết chương trình kêu người dùng nhập vào điểm 3 môn học
+    Toán Văn Anh , theo thứ tự
+    Tính trung bình  theo tiêu chí: đtb = (toan*3 + van*2 + anh)/6
 
-    Nhap 1: De tinh tong A+B
-    Nhap 2: De tinh hieu A-B
-    Nhap 3: De tinh thuong A/B
-    Nhap 4: De tinh tich A*B
-    Bạn muon lam gi?
+    Xuất điểm trung bình ra
 
-    vd: nguoi dung nhập vô 2 số
-    4.5  7.6
+    Hãy xếp loại học sinh đó biết rằng
+    Nếu điểm trung bình >= 8 và ko có môn nào dưới 6.5 -> Học sinh Giỏi
 
-    ->Console
-    Nhap 1: De tinh tong A+B
-    Nhap 2: De tinh hieu A-B
-    Nhap 3: De tinh thuong A/B
-    Nhap 4: De tinh tich A*B
-    Bạn muon lam gi?
+    Nếu đtb nằm trong khoảng   7->8 (ko lấy số 8) và ko có môn nào dưới 5
+    -> Học sinh khá 
 
-    ->1
-    4.5 + 7.6 = 12.1
+    Nếu đtb nằm trong khoảng 5->7 (ko lấy số 7)  và ko môn nào dưới 3.5
+    -> Học sinh trung bình
 
-    ->5
-    Ban da nhap sai
-    -> be chuong trinh luon
-
-
-    Bài 3:
-    Viết chương trình kiểm tra số nguyên dương n được nhập vào từ người dùng
-    kiểm tra xem số n đó có phải là số nguyên tố hay ko?
-    biết rằng số nguyên tố là số
-    CHỈ CHIA HẾT CHO 1 VÀ CHÍNH NÓ
-
-    vd: người dùng nhập -> 1
-    Thì xuất ra -> 1 là số nguyên tố
-
-    vd: người dùng nhập -> 2
-    Thì xuất ra -> 2 là số nguyên tố
-
-    vd: người dùng nhập -> 7
-    Thì xuất ra -> 7 là số nguyên tố
-
-    vd: người dùng nhập -> 8
-    Thì xuất ra -> 8 không là số nguyên tố
-
-    vd: người dùng nhập -> 4
-    Thì xuất ra -> 4 không là số nguyên tố
-
-    vd: người dùng nhập -> 6
-    Thì xuất ra -> 6 không là số nguyên tố
-
-    Bài 4: 
-    Viết chương trình kiểm tra số nguyên dương N được nhập vào từ người dùng
-    kiểm tra xem số n đó có phải là số hoàn thiện hay ko?
-    biết rằng số hoàn thiện là số
-    Ước của số N đó cộng lại bằng chính số N đó
+    Nếu đtb < 5
+    -> Học sinh kém
     
-   
-    vd: người dùng nhập -> 6 -> 1+2+3=6
-    Thì xuất ra -> 6 là số hoàn thiện
+    Ko dc nhập số âm, nếu nhập số âm thì kêu nhập lại
+    ko dc nhập số lớn hơn 10, nếu nhập sai bắt nhập lại
 
-    vd: người dùng nhập -> 28 -> 1+2+4+7+14=28
-    Thì xuất ra -> 28 là số hoàn thiện
 
-    vd: người dùng nhập -> 496
-    Thì xuất ra -> 496 là số hoàn thiện
+    Bài 2:
+    Viết chương trình nhập vào 1 số nguyên N bất kì
+    Xuất ra tất cả các số chia hết cho N (trừ 1 vào chính nó)
+    Đếm xem có bao nhiu số
 
-    vd: người dùng nhập -> 8 -> 1+2+4 = 7
-    Thì xuất ra -> 8 không là số hoàn thiện
+    vd nhập vào 6
+    in ra
+    2 3
 
-    vd: người dùng nhập -> 4
-    Thì xuất ra -> 4 không là số hoàn thiện
+    Có 2 số chia hết cho 6
+
+
+    vd nhập vào 10
+    in ra
+    2 5
+
+    Có 2 số chia hết cho 10
+
+
+    vd: nhập vào 7
+    in ra
+    -> Không có số nào chia hết cho nó
+        
 */
